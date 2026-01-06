@@ -16,12 +16,27 @@
     <ClInclude Include="Types.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
+    <ClInclude Include="PacketHeader.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferWriter.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferReader.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="CoreHeader.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferWriter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferReader.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

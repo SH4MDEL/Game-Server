@@ -86,11 +86,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BufferReader.h" />
+    <ClInclude Include="BufferWriter.h" />
     <ClInclude Include="CoreHeader.h" />
+    <ClInclude Include="PacketHeader.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Types.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BufferReader.cpp" />
+    <ClCompile Include="BufferWriter.cpp" />
     <ClCompile Include="CoreHeader.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

@@ -24,7 +24,7 @@ namespace GameServer::Network
 	{
 		for (;;)
 		{
-			// [Goals 1] I/O Context Pool 활용
+			//  I/O Context Pool 활용
 			// 새 연결을 처리할 IO Context를 가져옴
 			boost::asio::io_context& ioContext = m_ioContextPool.GetIoContext();
 
