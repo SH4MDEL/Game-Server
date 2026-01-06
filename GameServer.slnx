@@ -1,13 +1,12 @@
 <Solution>
   <Configurations>
     <Platform Name="x64" />
-    <Platform Name="x86" />
   </Configurations>
   <Folder Name="/Binary/">
-    <Project Path="Server/Server.vcxproj" />
+    <Project Path="Server/Server.vcxproj" Id="79f6027f-3f2e-481a-99bb-fe1f23fd632f" />
   </Folder>
   <Folder Name="/Libraries/">
-    <Project Path="CoreLibrary/CoreLibrary.vcxproj" />
-    <Project Path="NetworkEngine/NetworkEngine.vcxproj" />
+    <Project Path="CoreLibrary/CoreLibrary.vcxproj" Id="87cc502f-836b-4f08-9ac5-10ccf8b825ec" />
+    <Project Path="NetworkEngine/NetworkEngine.vcxproj" Id="22d3accd-6f56-4692-bcc3-9633919b5769" />
   </Folder>
 </Solution>

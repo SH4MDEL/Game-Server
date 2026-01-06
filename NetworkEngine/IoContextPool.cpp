@@ -58,8 +58,7 @@ namespace GameServer::Core
 	boost::asio::io_context& IoContextPool::GetIoContext()
 	{
 		// Round-Robin 방식으로 부하 분산
-		boost::asio::io_context& context = *m_ioContexts[m_nextIoContextIndex];
-		m_nextIoContextIndex = (m_nextIoContextIndex + 1) % static_cast<uint32>(m_ioContexts.size());
-		return context;
+		uint32 index = m_nextIoContextIndex.fetch_add(1) % static_cast<uint32>(m_ioContexts.size());
+		return *m_ioContexts[index];
 	}
 }
