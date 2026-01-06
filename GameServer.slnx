@@ -1,0 +1,13 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Binary/">
+    <Project Path="Server/Server.vcxproj" />
+  </Folder>
+  <Folder Name="/Libraries/">
+    <Project Path="CoreLibrary/CoreLibrary.vcxproj" />
+    <Project Path="NetworkEngine/NetworkEngine.vcxproj" />
+  </Folder>
+</Solution>
